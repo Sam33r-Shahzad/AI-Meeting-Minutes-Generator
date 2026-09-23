@@ -11,7 +11,7 @@ import torch
 LLAMA = "meta-llama/Llama-3.1-8B-Instruct"
 
 drive.mount("/content/drive")
-audio_filename = "/content/drive/MyDrive/<name-of-your-audio-file>.mp3"
+audio_filename = "/content/drive/MyDrive/<name"
 
 hf_token = userdata.get('HuggingFace')
 login(hf_token, add_to_git_credential=True)
